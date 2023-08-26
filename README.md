@@ -6,15 +6,15 @@ local do vídeo
 # 📁 Estrutura do Projeto
 
 🌐 **Root Directory**  
-│
-├─ 📂 **api/** - _Backend da aplicação contendo toda a lógica e processamento._
-│
-├─ 📂 **frontend/** - _Frontend da aplicação com a interface do usuário._
-│
-├─ 📜 **docker_postgres_init.sql** - _Dump do banco de dados PostgreSQL contendo a estrutura e dados iniciais._
-│
-├─ 📜 **docker-compose.yml** - _Arquivo de configuração do Docker Compose para orquestrar os contêineres._
-│
+│  
+├─ 📂 **api/** - _Backend da aplicação contendo toda a lógica e processamento._  
+│  
+├─ 📂 **frontend/** - _Frontend da aplicação com a interface do usuário._  
+│  
+├─ 📜 **docker_postgres_init.sql** - _Dump do banco de dados PostgreSQL contendo a estrutura e dados iniciais._  
+│  
+├─ 📜 **docker-compose.yml** - _Arquivo de configuração do Docker Compose para orquestrar os contêineres._  
+│  
 └─ 📜 **README.md** - _Documentação e informações gerais sobre o projeto._
 
 # 🐳 Containers
