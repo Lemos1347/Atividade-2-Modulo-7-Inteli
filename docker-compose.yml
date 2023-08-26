@@ -2,6 +2,7 @@ version: "3"
 services:
   frontend:
     build: ./frontend
+    image: lemos12/frontend-crud-avaliada-m7
     ports:
       - "3000:3000"
     restart: always
@@ -9,10 +10,8 @@ services:
       - db
 
   backend:
-    build:
-      context: ./api
-      args:
-        DATABASE_URL: ${DATABASE_URL:-mysql://user:password@db/TURTLE_BEE}
+    build: ./api
+    image: lemos12/backend-crud-avaliada-m7
     ports:
       - "3001:3001"
     volumes:
